@@ -1,0 +1,71 @@
+const base={
+  baseUrl:"http://localhost:3000",
+  register:"/api/register",
+    login:"/api/login",
+    selectTbItemAllByPage:"/api/backend/item/selectTbItemAllByPage",//商品列表
+    total:"/api/total", // 商品总条数
+    search:"/api/search",//模糊查询
+    selectItemCategoryByParentId:"/api/backend/itemCategory/selectItemCategoryByParentId",//类目选择
+    insertTbItem:"/api/backend/item/insertTbItem",//商品添加
+    deleteItemById:"/api/backend/item/deleteItemById", // 商品删除
+    preUpdateItem:"/api/backend/item/preUpdateItem",//预更新接口
+    updateTbItem:"/api/backend/item/updateTbItem",//商品修改
+    // 商铺
+    selectTbshopAllByPage:"/api/backend/item/selectTbshopAllByPage",//列表
+    shoptotal:"/api/shoptotal",
+    searchshop:"/api/searchshop",
+    preUpdateShop:"/api/backend/item/preUpdateShop",
+    insertTbShopItem:"/api/backend/item/insertTbShopItem",//添加
+    updateShop:"/api/backend/item/updateShop",
+    selectshopCategoryByParentId:"/api/backend/itemCategory/selectshopCategoryByParentId",
+    deleteshopItemById:"/api//backend/item/deleteshopItemById",
+    //用户
+    selectCustomerAllByPage:"/api/backend/item/selectCustomerAllByPage",
+    customertotal:"/api/customertotal",
+    deleteCustomer:"/api/backend/item/deleteCustomer",
+    searchCustomer:"/api/searchCustomer",
+//管理员
+selectUserAllByPage:"/api/backend/item/selectUserAllByPage",
+usertotal:"/api/usertotal",
+searchuser:"/api/searchuser",
+deleteUser:"/api/backend/item/deleteUser",
+//图表
+customerFujian:"/api/customerFujian",
+customerGuangdong:"/api/customerGuangdong",
+customerShanghai:"/api/customerShanghai",
+customerJiangsu:"/api/customerJiangsu",
+customerBeijing:"/api/customerBeijing",
+customerGansu:"/api/customerGansu",
+customerYunnan:"/api/customerYunnan",
+customerGuizhou:"/api/customerGuizhou",
+customerHainan:"/api/customerHainan",
+//订单
+selectList:"/api/backend/item/selectList",
+deleteList:"/api/backend/item/deleteList",
+searchList:"/api/searchList",
+preUpdateList:"/api/backend/item/preUpdateList",
+updateList:"/api/backend/item/updateList",
+//退货管理
+selectBack:"/api/backend/item/selectBack",
+deleteSellBack:"/api/backend/item/deleteSellBack",
+insertreason:"/api/backend/item/insertreason",
+totalReason:"/api/totalReason",
+preReason:"/api/backend/item/preReason",
+updateReason:"/api/backend/item/updateReason",
+searchBacklist:"/api/searchBacklist",
+//退货管理-退货列表
+selectBackList:"/api/backend/item/selectBackList",
+totalBList:"/api/totalBList",
+prebackList:"/api/backend/item/prebackList",
+deleteSellBackList:"/api/backend/item/deleteSellBackList",
+updateCheck:"/api/backend/item/updateCheck",
+//改密码
+searchUser:"/api/searchUser",
+updatePassword:"/api/backend/item/updatePassword",
+    selectContentCategoryByParentId:"/api/content/selectContentCategoryByParentId",//广告管理
+    insertContentCategory:"/api/content/insertContentCategory",//广告添加子分类
+    updateContentCategory:"/api/content/updateContentCategory",//广告修改导航
+    deleteContentCategoryById:"/api/content/deleteContentCategoryById"//广告删除导航
+}
+
+export default base;

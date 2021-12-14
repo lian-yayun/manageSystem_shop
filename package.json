@@ -1,0 +1,52 @@
+{
+  "name": "vue_sc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "dev": "concurrently \"npm run serve\" \"nodemon server/index.js\""
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "echarts": "^5.2.2",
+    "element-china-area-data": "^5.0.2",
+    "element-ui": "^2.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "less-loader": "^4.1.0",
+    "mint-ui": "^2.2.13",
+    "moment": "^2.29.1",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "register-service-worker": "^1.7.2",
+    "swiper": "^5.4.5",
+    "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
+    "vue-echarts": "^6.0.0",
+    "vue-router": "^3.2.0",
+    "vue-ueditor-wrap": "^2.5.6",
+    "vuex": "^3.4.0",
+    "wangeditor": "^4.7.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-plugin-component": "^1.1.1",
+    "element-theme-chalk": "^2.15.6",
+    "less": "^4.1.2",
+    "node-sass": "^4.0.0",
+    "sass-loader": "^7.3.1",
+    "vue-cli-plugin-element": "~1.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
