@@ -1,13 +1,13 @@
 # vue_sc
-
-## Project setup
-```
-cnpm install
+配置：
 cnpm install less-loader@4.1.0 --save 
 cnpm install less --save-dev
 cnpm install sass-loader@7.3.1 --save-dev
 cnpm install node-sass@4.14.1
 
+## Project setup
+```
+cnpm install
 ```
 
 ### Compiles and hot-reloads for development
